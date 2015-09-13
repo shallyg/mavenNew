@@ -17,6 +17,7 @@ public class Test1 {
 		@Test
 		public void doLogin(){
 			driver.findElement(By.id("Email")).sendKeys("aaaaa");
+			System.out.println("abc");
 			
 		}
 		@AfterSuite
