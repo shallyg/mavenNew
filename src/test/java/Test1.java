@@ -67,6 +67,7 @@ public class Test1 {
 		@AfterSuite
 		public void end(){
 			driver.quit();
+			System.out.println("test complete");
 		}
 	
 
