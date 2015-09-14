@@ -52,16 +52,16 @@ public class Test1 {
 			act.moveToElement(block).perform();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
-			WebDriverWait wait = new WebDriverWait(driver, 20L);
+			/*WebDriverWait wait = new WebDriverWait(driver, 20L);
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='suggestions']//div//a[3]//div"))).click();
 			driver.findElement(By.xpath("//*[@id='n-mainpage-description']/a")).click();
 			driver.findElement(By.xpath("//*[@id='ca-talk']/span/a")).click();
 			System.out.println("finish1");
 			
 			driver.findElement(By.xpath("//*[@id='searchInput']")).sendKeys("test");
-			driver.findElement(By.xpath("//div[@class='suggestions']//div//a[3]//div")).click();
+		//	driver.findElement(By.xpath("//div[@class='suggestions']//div//a[3]//div")).click();
 			System.out.println("finish2");
-			
+			*/
 			
 		}
 		@AfterSuite
